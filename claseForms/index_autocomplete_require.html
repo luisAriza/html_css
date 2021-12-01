@@ -4,27 +4,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Autocomplete y Require</title>
     </head>
     <body>
         <main>
             <form action="">
                 <label for="nombre">
-                    <span></span>
-                    <input type="text">
-                </label>
+                    <span>Cual es tu nombre?</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+                </label><br>
                 <label for="coreo">
-                    <span></span>
-                    <input type="text">
-                </label>
+                    <span>Cual es tu correo?</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
+                </label><br>
                 <label for="pais">
-                    <span></span>
-                    <input type="text">
-                </label>
+                    <span>En que pais resides?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country-name" required>
+                </label><br>
                 <label for="cp">
-                    <span></span>
-                    <input type="text">
-                </label>
+                    <span>Codigo postal</span>
+                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+                </label><br>
+                <input type="submit">
             </form>
         </main>
     </body>
