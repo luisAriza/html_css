@@ -1,0 +1,19 @@
+/* Un selector por elemento de HTML */
+p {
+    color: chartreuse;
+    font-size: 35px;
+}
+
+/* Un selector por elemento clase */
+/* class */
+.parrafo {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+/* Un selector por ID */
+/* ID */
+#texto {
+    color: coral;
+    font-size: 25px;
+}
