@@ -1,0 +1,32 @@
+.main-nav {
+    margin-top:10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(39, 163, 101);
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/* Estilos a etiqueta "a" dentro de una clase */
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Pseudo clase */
+.main-nav__item a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.main-nav__item a:active {
+    color: rgb(121, 121, 121);
+}
+
+/* Pseudo elemento */
+.main-nav__item a::after {
+    content: " | ";     /* despues del elemento, agrega esto " | " */
+}
