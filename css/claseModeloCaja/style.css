@@ -1,0 +1,17 @@
+/* Selector universal */
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    /*Para definir que tan grande sera esta etiqueta*/
+    width: 100%;
+    /*Para definir que tan alto sera esa etiqueta*/
+    height: 500px;
+    /* Solid es para poder ver el border*/
+    border: 10px solid darkred;
+    /* de 20 pixels de arriba hacia abajo y 35 pixels de izquierda a derecha */
+    padding: 20px 35px;
+}
