@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-image: url(./pictures/3e040ff7d897534d2a0d8199353ba9e5.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.nav {
+    background-color: rgb(235, 230, 230);
+    padding: 1.5rem;
+    border-bottom: .2rem solid;
+    border-color: rgb(162, 176, 255);
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: .7rem ;left: 3rem;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+.nav li{
+    font-weight: 700;
+    color: rgb(52, 54, 68);
+    display: inline-block;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+section {
+    display: inline-block;
+    margin: auto;
+}
+
+.layout {
+    width: 21rem;
+    background-color: rgb(235, 230, 230);
+    padding: 0em 2em;
+    border-right: .2rem solid;
+    border-color: rgb(162, 176, 255);
+}
+
+.layout figure {
+    display: block;
+    margin: auto;
+}
+
+.layout img {
+    margin: 1rem;
+    padding: 1rem;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 1rem;
+    background-color: rgb(151, 162, 172);
+}
+
+.container {
+    font-size: 180%;
+    padding: 1.5rem 3.5rem 0rem;
+    border: .2rem solid;
+    border-radius: 1rem;
+    border-color: rgb(79, 85, 122);
+    width: 40rem;
+    background-color: rgb(235, 230, 230);
+    position: absolute;
+    top: 12%; left: 40%;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    display: block;
+    margin: auto;
+    padding: .5rem;
+    border-radius: 1rem;
+    width: 20rem;
+    text-align: center;
+    position: relative;
+    top: -3.5rem;
+    background-color: rgb(44, 44, 44);
+}
+
+.pokemon {
+    display: block;
+    margin: auto;
+    width: 30rem;
+    height: 30rem;
+    background-color: rgb(151, 162, 172);
+    border-radius: 1rem;
+    position: relative;
+    top: -1.5rem;
+}
+
+.container li {
+    margin: 1rem;
+    text-align: left;
+    position: relative;
+    top: -.8rem;
+}
+
+.type {
+    width: 4.5rem;
+}
+
+.gen {
+    width: 1.7rem;
+    height: 1.7rem;
+}
