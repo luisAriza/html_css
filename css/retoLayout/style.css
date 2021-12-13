@@ -5,77 +5,71 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
-    background-image: url(./pictures/3e040ff7d897534d2a0d8199353ba9e5.png);
-    background-repeat: no-repeat;
-    background-position: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .nav {
-    background-color: rgb(235, 230, 230);
-    padding: 1.5rem;
-    border-bottom: .2rem solid;
-    border-color: rgb(162, 176, 255);
+    background-color: rgb(39, 38, 38);
+    border-bottom: .15rem solid rgb(187, 197, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo {
+.nav img {
+    margin: 1rem;
     width: 4rem;
     height: 4rem;
-    position: absolute;
-    top: .7rem ;left: 3rem;
-}
-
-.nav ul {
-    text-align: right;
 }
 
 .nav li{
-    font-weight: 700;
-    color: rgb(52, 54, 68);
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgb(239, 241, 248);
     display: inline-block;
-    font-size: 2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-section {
-    display: inline-block;
-    margin: auto;
+.main-container {
+    background-image: url(./pictures/3e040ff7d897534d2a0d8199353ba9e5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.layout {
-    width: 21rem;
-    background-color: rgb(235, 230, 230);
-    padding: 0em 2em;
-    border-right: .2rem solid;
-    border-color: rgb(162, 176, 255);
+.layout1 {
+    border-right: .2rem solid rgb(187, 197, 255);
+    padding: 1rem;
 }
 
-.layout figure {
+.layout1 article {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout1 img {
+    width: 13rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(98, 116, 144);
+}
+
+.layout2 {
+    border: .2rem solid rgb(58, 68, 104);
+    border-radius: 1rem;
+    background-color: rgb(245, 245, 245);
+    padding: 2rem;
     display: block;
     margin: auto;
-}
-
-.layout img {
-    margin: 1rem;
-    padding: 1rem;
-    width: 13rem;
-    height: 13rem;
-    border-radius: 1rem;
-    background-color: rgb(151, 162, 172);
-}
-
-.container {
-    font-size: 180%;
-    padding: 1.5rem 3.5rem 0rem;
-    border: .2rem solid;
-    border-radius: 1rem;
-    border-color: rgb(79, 85, 122);
-    width: 40rem;
-    background-color: rgb(235, 230, 230);
-    position: absolute;
-    top: 12%; left: 40%;
 }
 
 h2 {
@@ -103,7 +97,7 @@ h2 {
     top: -1.5rem;
 }
 
-.container li {
+.layout2 li {
     margin: 1rem;
     text-align: left;
     position: relative;
